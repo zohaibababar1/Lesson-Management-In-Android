@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lessonNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson Name"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lessonNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lessonNameTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lessonLengthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length of Lesson"
+        android:layout_below="@id/lessonNumberTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/lessonDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson Description"
+        android:layout_below="@id/lessonLengthTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="gravity"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/markCompleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lessonDescriptionTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="124dp"
+        android:text="Mark as Complete" />
+
+    <Button
+        android:id="@+id/watchLessonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/markCompleteButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-331dp"
+        android:layout_marginEnd="137dp"
+        android:text="Watch Lesson" />
+
+</RelativeLayout>

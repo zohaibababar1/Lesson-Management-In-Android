@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="mark_complete_button_description">Mark as Complete</string>
+    <string name="watch_lesson_button_description">Watch Lesson</string>
+</resources>
+
